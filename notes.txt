@@ -1,0 +1,17 @@
+testUser111 - 966  
+testUser112 - 45
+testUser113 - 2408 
+
+http://steamcommunity.com/id/at94/ jamesBond
+
+function minus(ath) {
+$(ath[0]).click();
+ath.splice(0,1);
+if(ath.length<1) { clearInterval(Timer);
+alert("done"); }
+}
+
+var Aname = "adramelech";
+var list = $(".author:contains('"+Aname+"')").parent().find(".com_down");
+var Timer = setInterval(function() {minus(list)},3000);
+console.log(Timer);
